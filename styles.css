@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 8px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+section {
+    padding: 40px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text {
+    flex: 1;
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 20%;
+    border-radius: 8px;
+}
+
+#about .about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-photo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#skills .skill-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills p {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+#education .milestones {
+    display: flex;
+    justify-content: space-between;
+}
+
+#education .education,
+#education .experience {
+    flex: 1;
+}
+
+#gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 30%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#testimonial .testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+}
+
+.testimonial-item {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.testimonial-item img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+}
+
+#contact input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #4CAF50; 
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white; 
+}
+
+nav a:hover {
+    color: #FFD700; 
+}
+
+nav a:active {
+    color: #FF4500; 
+}
